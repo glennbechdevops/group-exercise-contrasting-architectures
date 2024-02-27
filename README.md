@@ -20,36 +20,36 @@ Do you think monoliths will re-appear? Will we be attending Monocon 2030?
 
 ## Architecture 1 - Modern Serverless Architecture 
 
-# Typical Serverless Architecture Explained
+Typical Serverless Architecture Explained
 
-## Users & Authentication
+### Users & Authentication
 - **AWS Cognito**: Manages user authentication and identity, ensuring secure access to the application.
 
-## File Upload
+### File Upload
 - **Amazon S3**: Object storage service for uploading files.
 - **AWS Lambda**: Compute service that can be triggered to process files after they're uploaded.
 
-## Frontend
+### Frontend
 - **S3 & CloudFront**: Services for hosting the user interface of your application. CloudFront distributes the content with low latency across the globe.
 
-## Business API
+### Business API
 - **AWS Lambda**: Runs backend logic in response to HTTP requests via API Gateway.
 - **Amazon DynamoDB**: NoSQL database service for storing and retrieving data.
 
-## Asynchronous Trigger
+### Asynchronous Trigger
 - **AWS SNS & SQS**: Messaging and queuing services for event-driven, asynchronous workflows that trigger Lambda functions.
 
-## Back-end to Front-end Push
+### Back-end to Front-end Push
 - **WebSocket & AWS API Gateway**: Enables real-time communication between the backend and frontend clients.
 
-## Asynchronous Tasks
+### Asynchronous Tasks
 - **AWS Step Functions**: Coordinates multiple AWS services into serverless workflows.
 - **AWS SES**: Email service for sending notifications and other communications.
 
-## Monitoring
+### Monitoring
 - **AWS CloudWatch**: Monitors application performance, logs data, and sets alarms for resource usage.
 
-## Security
+### Security
 - **AWS WAF & Shield**: Protects the application from web exploits and DDoS attacks.
 
 Each component in this architecture represents a piece of the serverless puzzle, working together to create a scalable, efficient, and manageable application without the need for traditional server management.
