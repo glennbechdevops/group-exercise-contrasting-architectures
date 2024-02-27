@@ -4,7 +4,7 @@
 ## Instructions for Students:
 
 1. Form teams of 3-5 members.
-2. Each team will receive diagrams of two different architectural approaches: a monolithic architecture and a serverless cloud architecture.
+2. Look at the two diagrams on this page. It consits of two entirely different architectural approaches: a monolithic architecture and a serverless cloud architecture.
 3. Take 15-20 minutes to review the diagrams with your team and discuss the benefits and drawbacks of each architecture.
 4. Consider aspects such as scalability, maintainability, deployment complexity, cost, performance, and developer productivity during your discussion.
 5. After the discussion, each team will present their observations to the class.
