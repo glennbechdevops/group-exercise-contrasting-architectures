@@ -13,3 +13,11 @@
 8. Participate in the class discussion following each team's presentation to clarify points and contribute further insights.
 9. Reflect on the key differences and considerations between the two architectures as summarized by the instructor.
 10. Remember that there is no one-size-fits-all solution, and the choice of architecture should be based on the specific requirements and constraints of each project.
+
+## Architecture 1 
+
+![](img/modern.png)
+
+## Architecture 2
+
+![](img/modern.png)
