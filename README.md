@@ -22,7 +22,12 @@ Do you think monoliths will re-appear? Will we be attending Monocon 2030?
 
 ![](img/modern.png)
 
-Typical Serverless Architecture Explained
+Typical Serverless Architecture  components
+
+* The Orange sympols denoted with a greek Lambda, are AWS lambda functions. Pieces of application code that needs a soruce code repository, build & deployment pipelines, unit tests, etc. 
+* Step functions is used to Orchistrate lambda functions and workflows
+* Blue icons with the label ; Dyanmo DB is a no-SQL database 
+* green Icons with a Bucket; S3 is file hosting for websites, media or entire data lakes 
 
 ### Users & Authentication
 - **AWS Cognito**: Manages user authentication and identity, ensuring secure access to the application.
