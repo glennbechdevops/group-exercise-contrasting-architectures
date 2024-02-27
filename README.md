@@ -18,7 +18,7 @@ Other teams:
 
 Do you think monoliths will re-appear? Will we be attending Monocon 2030?
 
-## Architecture 1 - Modern Serverless Architecture 
+## Architecture option 1 - Modern Serverless Architecture 
 
 ![](img/modern.png)
 
@@ -56,9 +56,7 @@ Typical Serverless Architecture Explained
 
 Each component in this architecture represents a piece of the serverless puzzle, working together to create a scalable, efficient, and manageable application without the need for traditional server management.
 
-
-
-## Architecture 1
+## Architecture Option 2 - The monolith 
 
 We can also imagine the same business logic as above implemented in such a way that all business requirements 
 were implemented as a monolithic application handling all of the above mentioned features - from 
