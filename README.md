@@ -16,7 +16,7 @@
 
 ## Architecture 1 
 
-![](img/modern.png)
+![](img/monolithic.png)
 
 ## Architecture 2
 
