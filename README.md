@@ -1,34 +1,24 @@
 # Group Exercise - Contrasting architectures 
 
+
 ## Instructions for Students:
 
 1. Form teams of 3-5 members.
-2. Look at the three diagrams on this page. It consits of  entirely different architectural approaches: a monolithic architecture, Microservices, and a serverless cloud architecture.
+2. Look at the two diagrams on this page. It consits of two entirely different architectural approaches: a monolithic architecture and a serverless cloud architecture.
 3. Take 15-20 minutes to review the diagrams with your team and discuss the benefits and drawbacks of each architecture.
 4. Consider aspects such as scalability, maintainability, deployment complexity, cost, performance, and developer productivity during your discussion.
 5. After the discussion, each team will present their observations to the class.
 6. Share your team's insights regarding the benefits and drawbacks of each architecture.
 
-Do you think monoliths will re-appear? Will we be attending Monocon 2030? 
+Other teams:
 
-## Architecture Option 1 - The monolith 
+8. Listen to other teams' presentations and take note of additional points that may not have been discussed in your group.
+8. Participate in the class discussion following each team's presentation to clarify points and contribute further insights.
+9. Reflect on the key differences and considerations between the two architectures as summarized by the instructor.
 
-We can imagine all application logic implemented in such a way that all business requirements 
-were implemented as a monolithic application handling all features - from file upload to UI presentation layer. 
+Do you think monoliths will re-appear? Will we be attending Monocon 2030?
 
-![](img/monolithic.png)
-
-## Architecture Option 2 - Microservices
-
-In a banking app using microservices, you’d break down different parts of the system into smaller, independent services that each focus on one job.
-
-For example, you’d have one service just for handling users—things like registering, logging in, and managing their profiles. Another service would deal with bank accounts, keeping track of balances and account details. Then, you’d have a separate service for handling transactions—things like transferring money, deposits, and withdrawals. Whenever a transaction happens, there could be a notification service that kicks in to send out alerts to the user, maybe via email or SMS.
-
-If a user logs in, the user service takes care of it. When they check their balance or move money, the account and transaction services handle that. Each service talks to the others through APIs, but they’re independent, so you can work on or scale them separately. It’s all about making each part of the app do one thing really well while keeping everything connected and scalable.
-
-![](img/monolithic.png)
-
-## Architecture option 3 - Modern Serverless Architecture 
+## Architecture option 1 - Modern Serverless Architecture 
 
 ![](img/modern.png)
 
@@ -70,3 +60,11 @@ Typical Serverless Architecture  components
 - **AWS WAF & Shield**: Protects the application from web exploits and DDoS attacks.
 
 Each component in this architecture represents a piece of the serverless puzzle, working together to create a scalable, efficient, and manageable application without the need for traditional server management.
+
+## Architecture Option 2 - The monolith 
+
+We can also imagine the same business logic as above implemented in such a way that all business requirements 
+were implemented as a monolithic application handling all of the above mentioned features - from 
+file upload to UI presentation layer. 
+
+![](img/monolithic.png)
