@@ -7,8 +7,9 @@
 2. Look at the two diagrams on this page. It consits of two entirely different architectural approaches: a monolithic architecture and a serverless cloud architecture.
 3. Take 15-20 minutes to review the diagrams with your team and discuss the benefits and drawbacks of each architecture.
 4. Consider aspects such as scalability, maintainability, deployment complexity, cost, performance, and developer productivity during your discussion.
-5. After the discussion, each team will present their observations to the class.
-6. Share your team's insights regarding the benefits and drawbacks of each architecture.
+5. Focus on one of these aspects- and discuss benefits and drawbacks. 
+6. After the discussion, each team will present their observations to the class.
+7. Share your team's insights regarding the benefits and drawbacks of each architecture.
 
 Other teams:
 
