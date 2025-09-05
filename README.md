@@ -67,4 +67,6 @@ We can also imagine the same business logic as above implemented in such a way t
 were implemented as a monolithic application handling all of the above mentioned features - from 
 file upload to UI presentation layer. 
 
+In the following diagram, think of the organge boxes as physical pieces of hardware in a datacenter
+
 ![](img/monolithic.png)
